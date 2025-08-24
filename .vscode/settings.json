@@ -1,0 +1,13 @@
+{
+  "prettier.jsxSingleQuote": true,
+  "java.saveActions.organizeImports": true,
+  "javascript.preferences.organizeImports": {},
+  "typescript.preferences.organizeImports": {
+    "caseFirst": "default"
+  },
+
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "explicit"
+  }
+}

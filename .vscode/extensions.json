@@ -1,0 +1,11 @@
+{
+  "recommendations": [
+    "github.vscode-github-actions",
+    "sanjulaganepola.github-local-actions",
+    "dbaeumer.vscode-eslint",
+    "adisreyaj.sonarqube-status",
+    "firsttris.vscode-jest-runner",
+    "ms-playwright.playwright",
+    "esbenp.prettier-vscode"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Run Analysis Detail E2E Tests",
+      "type": "shell",
+      "command": "npx playwright test src/tests/modules/analysis/analysis-detail.spec.ts --headed",
+      "group": "test",
+      "isBackground": false,
+      "problemMatcher": []
+    },
+    {
+      "label": "Run All Analysis E2E Tests",
+      "type": "shell",
+      "command": "npx playwright test src/tests/modules/analysis/ --headed",
+      "group": "test",
+      "isBackground": false,
+      "problemMatcher": []
+    },
+    {
+      "label": "Run Analysis Detail E2E Tests (Headless)",
+      "type": "shell",
+      "command": "npx playwright test src/tests/modules/analysis/analysis-detail.spec.ts",
+      "group": "test",
+      "isBackground": false,
+      "problemMatcher": []
+    },
+    {
+      "label": "Run Analysis E2E Tests with Report",
+      "type": "shell",
+      "command": "npx playwright test src/tests/modules/analysis/ --reporter=html",
+      "group": "test",
+      "isBackground": false,
+      "problemMatcher": []
+    }
+  ]
+}
