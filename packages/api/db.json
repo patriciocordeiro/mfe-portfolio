@@ -1,0 +1,84 @@
+{
+  "products": [
+    {
+      "id": "classic-crewneck-shirt",
+      "slug": "classic-crewneck-shirt",
+      "name": "Classic Crewneck Shirt",
+      "price": {
+        "current": 2999,
+        "original": 3500,
+        "currencyCode": "USD"
+      },
+      "description": "A timeless classic, this crewneck t-shirt is made from 100% premium cotton for ultimate comfort and durability. Perfect for any occasion, it's a staple for every wardrobe.",
+      "features": [
+        "100% Premium Combed Cotton",
+        "Pre-shrunk for a perfect fit",
+        "Tagless for comfort"
+      ],
+      "images": [
+        {
+          "url": "https://placehold.co/600x600/000000/FFFFFF?text=Shirt",
+          "altText": "Classic Crewneck Shirt"
+        }
+      ],
+      "primaryImage": {
+        "url": "https://placehold.co/400x400/000000/FFFFFF?text=Shirt",
+        "altText": "Classic Crewneck Shirt"
+      },
+      "brand": { "id": "b1", "name": "Helios Apparel" },
+      "category": {
+        "id": "c1",
+        "name": "T-Shirts",
+        "breadcrumbs": [
+          { "id": "cat0", "name": "Tops" },
+          { "id": "c1", "name": "T-Shirts" }
+        ]
+      },
+      "inventory": { "stockLevel": "IN_STOCK", "availableQuantity": 150 },
+      "options": [],
+      "variants": [],
+      "reviews": { "averageRating": 4.8, "reviewCount": 250 },
+      "tags": ["BESTSELLER"]
+    },
+    {
+      "id": "modern-tech-hoodie",
+      "slug": "modern-tech-hoodie",
+      "name": "Modern Tech Hoodie",
+      "price": {
+        "current": 7999,
+        "original": 7999,
+        "currencyCode": "USD"
+      },
+      "description": "Engineered for performance and style, the Modern Tech Hoodie features a moisture-wicking fabric blend and an athletic fit. Ideal for workouts or casual wear.",
+      "features": [
+        "Polyester/Spandex Blend",
+        "Zippered Pockets",
+        "Adjustable Hood"
+      ],
+      "images": [
+        {
+          "url": "https://placehold.co/600x600/333333/FFFFFF?text=Hoodie",
+          "altText": "Modern Tech Hoodie"
+        }
+      ],
+      "primaryImage": {
+        "url": "https://placehold.co/400x400/333333/FFFFFF?text=Hoodie",
+        "altText": "Modern Tech Hoodie"
+      },
+      "brand": { "id": "b1", "name": "Helios Apparel" },
+      "category": {
+        "id": "c2",
+        "name": "Hoodies",
+        "breadcrumbs": [
+          { "id": "cat0", "name": "Tops" },
+          { "id": "c2", "name": "Hoodies" }
+        ]
+      },
+      "inventory": { "stockLevel": "IN_STOCK", "availableQuantity": 80 },
+      "options": [],
+      "variants": [],
+      "reviews": { "averageRating": 4.9, "reviewCount": 180 },
+      "tags": ["NEW_ARRIVAL"]
+    }
+  ]
+}
