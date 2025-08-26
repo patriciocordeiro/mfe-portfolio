@@ -1,0 +1,35 @@
+@import './tokens.css';
+@import './theme.css';
+
+/* Button example */
+.pc-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  border-radius: var(--pc-radius-sm);
+  background: var(--pc-color-primary);
+  color: var(--pc-on-primary);
+  border: none;
+  cursor: pointer;
+  transition: transform var(--pc-duration-fast) var(--pc-ease);
+}
+.pc-btn:hover {
+  transform: translateY(-1px);
+}
+
+.pc-card {
+  padding: var(--pc-space-4);
+  border-radius: var(--pc-radius-md);
+  background: var(--pc-surface);
+  border: 1px solid var(--pc-border);
+  box-shadow: var(--pc-shadow-sm);
+}
+
+.pc-badge {
+  background: var(--pc-color-info);
+  color: var(--pc-on-primary);
+  padding: 2px 6px;
+  border-radius: 999px;
+  font-size: 12px;
+}

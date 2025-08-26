@@ -1,0 +1,80 @@
+/* Base theme and utility classes that consume tokens from tokens.css
+   Import order: tokens.css first, then theme.css
+*/
+
+@import './tokens.css';
+
+:root,
+:host {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+/* Layout helpers */
+.stack {
+  display: flex;
+  flex-direction: column;
+  gap: var(--pc-space-3);
+}
+.row {
+  display: flex;
+  gap: var(--pc-space-3);
+  align-items: center;
+}
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Spacing helpers */
+.p-sm {
+  padding: var(--pc-space-2);
+}
+.p-md {
+  padding: var(--pc-space-4);
+}
+.m-sm {
+  margin: var(--pc-space-2);
+}
+
+/* Text */
+.text-muted {
+  color: var(--pc-text-muted);
+}
+.text-primary {
+  color: var(--pc-link);
+}
+
+/* Utilities for elevation and radius */
+.card {
+  background: var(--pc-surface);
+  border: 1px solid var(--pc-border);
+  border-radius: var(--pc-radius-md);
+  box-shadow: var(--pc-shadow-sm);
+}
+
+.visually-hidden {
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+  white-space: nowrap;
+}
+
+/* Focus states */
+.focus-ring:focus {
+  outline: none;
+  box-shadow: var(--pc-focus-ring);
+}
