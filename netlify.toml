@@ -1,0 +1,10 @@
+# This is the configuration for our API site
+[build]
+  # We don't have a build step for the API, but we need to point to the functions dir
+  functions = "netlify/functions/"
+
+# This rule makes our function accessible at a clean URL
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/api/:splat"
+  status = 200
